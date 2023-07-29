@@ -1,0 +1,18 @@
+body {
+    font-size: 22px;
+    background-color:rgb(247, 247, 222)
+}
+
+.header {
+   font-style: italic;
+   text-transform:capitalize; 
+}
+
+h3 {
+    font-style: oblique;
+}
+
+a {
+    text-decoration:dotted;
+    color: black;
+}
