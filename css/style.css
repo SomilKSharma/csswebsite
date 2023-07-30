@@ -6,9 +6,6 @@ body {
     color:rgba(0,0,0,1);
 }
 
-h1, header nav, header nav li{
-    display: inline-block;
-}
 
 h2,h3 {
     text-align:center;
@@ -26,7 +23,6 @@ figcaption {
 }
 
 .title {
-    margin:5rem;
     padding: 1.5rem;
     color: rgb(247, 247, 222);
     background-color: black;
@@ -61,5 +57,11 @@ a:hover {
 
 .focus {
     list-style-image: url("../image/index.jpg");
+}
+
+h1, header nav, header nav li{
+    text-align: right;
+    display: inline-block;
+    margin-inline: 1rem;
 }
 
