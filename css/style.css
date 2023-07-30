@@ -1,8 +1,17 @@
-body {
+body { 
     font-size: 1.5rem;
+    line-height: 1.5;
     background-color:rgb(247, 247, 222);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgba(0,0,0,1);
+}
+
+h1{
+    display: inline;
+}
+
+h2,h3 {
+    text-align:center;
 }
 
 .header {
@@ -10,8 +19,23 @@ body {
    text-transform:capitalize; 
 }
 
+figcaption {
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    margin:5rem;
+    padding: 1.5rem;
+    color: rgb(247, 247, 222);
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
 .soul {
-    border: 4px solid red;
+    border: 4px dashed red;
 }
 
 h3 {
@@ -21,4 +45,24 @@ h3 {
 a {
     text-decoration:dotted;
     color: black;
+}
+
+li a{
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(234, 39, 39);
+}
+
+.head_list {
+    list-style-type: none;
+}
+
+.focus {
+    list-style-image: url("../image/index.jpg");
+}
+
+header nav {
+    
 }
