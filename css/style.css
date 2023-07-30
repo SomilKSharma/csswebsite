@@ -6,8 +6,8 @@ body {
     color:rgba(0,0,0,1);
 }
 
-h1{
-    display: inline;
+h1, header nav, header nav li{
+    display: inline-block;
 }
 
 h2,h3 {
@@ -63,6 +63,3 @@ a:hover {
     list-style-image: url("../image/index.jpg");
 }
 
-header nav {
-    
-}
