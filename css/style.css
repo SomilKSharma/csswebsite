@@ -39,7 +39,7 @@ h3 {
 }
 
 a {
-    text-decoration:dotted;
+    text-decoration:underline;
     color: black;
 }
 
@@ -60,8 +60,101 @@ a:hover {
 }
 
 h1, header nav, header nav li{
-    text-align: right;
+    text-align: left;
     display: inline-block;
     margin-inline: 1rem;
 }
 
+.video-container video {
+    width: 100%;
+}
+
+.image_privacy_1 {
+    float: left;
+    margin: 1rem;
+    clear: both;
+}
+
+.image_privacy_2 {
+    float: right;
+    margin: 1rem;
+    clear: both;
+}
+
+.Privacy {
+    column-count: 3;
+    column-width: 250px;
+    column-rule: 2px solid black;
+
+}
+
+.quote {
+    font-size: 4rem;
+    font-style: italic;
+    margin: 3rem;
+    text-align: center;
+    color: brown;
+}
+
+.social_1 {
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    position: fixed;
+    z-index: 1;
+}
+
+.social_2 {
+    width: 50px;
+    height: 50px;
+    top: 350px;
+    position: fixed;
+    z-index: 1;
+}
+
+.social_3 {
+    width: 50px;
+    height: 50px;
+    top: 400px;
+    position: fixed;
+    z-index: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 3rem;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.social_4 {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_5 {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_6 {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
