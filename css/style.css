@@ -1,7 +1,7 @@
 body { 
     font-size: 1.5rem;
     line-height: 1.5;
-    background-color:rgb(247, 247, 222);
+    background-image:linear-gradient(rgb(247, 247, 222),white);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgba(0,0,0,1);
 }
@@ -67,6 +67,7 @@ h1, header nav, header nav li{
 
 .video-container video {
     width: 100%;
+    border-radius: 50%;
 }
 
 .image_privacy_1 {
