@@ -1,5 +1,6 @@
 /*variable for background color*/
 :root {
+    --FONT:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --BGCOLOR: rgb(247, 247, 222);
 }
 
@@ -8,7 +9,7 @@ body {
     font-size: 2rem;
     line-height: 1.5;
     background-image:linear-gradient(var(--BGCOLOR),white); /* Background gradient */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--FONT);
     color:rgba(0,0,0,1);
 }
 
